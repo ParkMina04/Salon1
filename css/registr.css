@@ -1,0 +1,181 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: rgba(244, 246, 252, 0.5);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+}
+
+.center{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.registr{
+    padding-top: 90px;
+    background-color: rgba(244, 246, 252, 0.5);
+    padding-bottom: 90px;
+}
+
+/*style*/
+.container-website .info{
+    background-color:rgba(44, 43, 44);
+    border: 1px solid rgba(244, 246, 252, 0.5);
+    border-radius: 45px;
+}
+
+.container-website .info .exit{
+    padding: 0 60px;
+    padding-top: 40px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Montserrat';
+}
+
+.container-website .info .exit a{
+    color: #fff;
+}
+
+.container-website .info h4{
+    padding: 60px 96px 16px 60px;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.container-website .info p{
+    padding: 0 60px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.container-website .info form{
+    max-width: 432px;
+    margin: 0 auto;
+    padding: 40px 0 28px 0;
+}
+
+.container-website .info form input{
+    margin-bottom: 16px;
+    width: 100%;
+    height: 64px;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #fff;
+    outline: 0;
+    padding-left: 28px;
+    font-size: 16px;
+    line-height: 175%;
+    font-family: 'Montserrat'
+}
+
+.container-website .info form div .date-info input{
+    padding-right: 28px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.container-website .info form button{
+    width: 100%;
+    margin-top: 23px;
+    font-family: 'Montserrat';
+    color: #1b1c2b;
+    background-color: #bf79d2;
+    font-weight: 600;
+    border-radius: 41px;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 16px 0;
+    border: 0;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.container-website .info form button:hover{
+    color: #bf79d2;
+    background-color: #1B1C2B;
+}
+
+.container-website .info .btn-wrap{
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.container-website .info .btn-wrap a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.container-website .info .btn-wrap a span{
+    font-size: 28px;
+    vertical-align: middle;
+}
+
+.container-website .info .acc a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 400%;
+    color: #bf79d2;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    padding-left: 60px;
+}
