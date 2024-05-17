@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Салон красоты для домашних животных</title>
+    <link rel="shortcut icon" href="../images/logo1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/registr.css">
+</head>
+<body>
+    <div class="registr">
+        <section class="center container-website">
+            
+            <div class="info">
+                <div class="exit">
+                    <a href="../Main.html">Выйти на главную страницу<span> &rarr;</span></a>
+                </div>
+                <h4>Регистрация</h4>
+                <p>Зарегистрируйтесь, чтобы записывать на процедуры онлайн</p>
+                <div class="acc">
+                    <a href="./Avtoris.html">Уже есть аккаунт</a>
+                </div>
+                <form action="../connect.php" method="post">
+                    <div>
+                        <input type="text" placeholder="ФИО" name="name" id="UserName">
+                    </div>
+                    <div class="date-info">
+                        <input id="Birthdate" style="padding-right: 28px; color: rgb(255, 255, 255, 0.3);" type="date" placeholder="Дата рождения" name="birthdate">
+                    </div>
+                    <div>
+                        <input id="phone" placeholder="Номер телефона" name="phone_number" type="text">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Email" name="email">
+                    </div>
+                    <div>
+                        <input type="password" placeholder="Пароль" name="password">
+                    </div>
+                    
+
+                    <button id="reg" type="submit">Зарегистрироваться</button>
+
+                    
+                </form>
+
+            </div>
+        </section>
+    </div>
+
+</body>
+
+<script src="../index.js"></script>
+</html>
